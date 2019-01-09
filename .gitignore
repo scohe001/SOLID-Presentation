@@ -1,0 +1,94 @@
+# Ignore file for Mercurial
+
+# use glob syntax
+syntax: glob
+
+# ignore hg files
+*.rej
+*.orig
+
+# Ignore Visual Studio files
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.sbr
+*.scc
+*.xap
+*.zip
+*.csproj.user
+*.[Pp]ublish.xml
+*[Bb]in/
+*[Dd]ebug/
+*[Dd]emo/
+*[Oo]bj/
+*[Rr]elease/
+*[Tt]est[Rr]esult*
+*[Bb]uild[Ll]og.*
+*[Cc]lientBin/
+*[Pp]ackages/
+*.nupkg
+*.playlist
+
+#Ignore VX specific folders & files
+*.pkg/
+*.lib/
+*.tst/
+*.out/
+Tyler.Vx.Web.Shell/app/
+Tyler.Vx.Web.Shell/Areas/
+Tyler.Vx.Web.Shell/Content/
+Tyler.Vx.Web.Shell/Scripts/
+Tyler.Vx.Web.Shell/fonts/
+*.bak*.orm
+Library/
+Alloy/
+.ngtpkg/
+.unpacked/
+*/[Aa]pp.[Uu]ser.[Cc]onfig
+null
+
+# Incode Express
+*ExpressWeb/.idea
+*ExpressWeb/apps/**/*.css
+*ExpressWeb/lib
+*ExpressWeb/typings
+*ExpressWeb/library/**/*.css
+*ExpressWeb/node_modules/
+*ExpressWeb/**/*.js
+*ExpressWeb/**/*.js.map
+
+
+*.vs/
+
+# Ignore Python Hook compiled files
+HG_Hooks/*.pyc
+HG_Hooks/*.pyo
+
+
+# Ignore IMS control files
+*.imsidx
+
+#resharper?
+*_ReSharper*/
+*.DotSettings
+*.idea/*
+
+#Tax
+Tax/Tax/Tools/Dropbox/
+ClearBinAndObjFolders.bat
+
+#Financials
+Financials/.vxext/.*
